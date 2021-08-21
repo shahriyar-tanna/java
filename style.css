@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: rgb(8, 92, 92);
+}
+header{
+    width: 100%;
+    float: left;
+    margin: 25px 0px;
+}
+.info{
+    width: 100%;
+    float: left;
+}
+input{
+    background-color: none;
+    border: none;
+    border-radius: 3px;
+    margin: 15px 0px;
+    padding: 5px;
+    height: 30px;
+    width: 400px;
+}
+::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}

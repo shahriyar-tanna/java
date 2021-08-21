@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Result</title>
+        <!--Theme css-->
+            <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>2021 Examination Result</h1>
+            <h2>Class Test August'21</h2>
+            <h3>Class CTG-420</h3>
+        </header>
+        <section class="info">
+            <form> 
+                <input type="text" placeholder="Enter Full Name"><br>
+                <input type="text" placeholder="Enter Roll No"><br>
+                <input type="number" id="input" placeholder="Enter Marks"><br>
+                <button type="button" onclick="grade()">Submit For Grade</button><br>
+                <input type="text" id="output">
+            </form>
+        </section>
+        <script>
+                function grade() {
+                var input = document.getElementById('input').value;
+                var output = document.getElementById('output');
+                if (input >= 90 && <= 100) {
+                document.getElementById("output").innerHTML = "A+";
+                }
+                else if (grade >= 80 && <90) {
+                document.getElementById("output").innerHTML = "A";
+                }
+                else {
+                document.getElementById("output").innerHTML = "Fail";
+                }
+            }
+
+        </script>
+
+        <!--Theme Js-->
+
+        <!--<script type="text/javascript" src="main.js"></script>-->
+    </body>
+</html>
